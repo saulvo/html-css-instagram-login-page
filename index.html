@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-list">
+        <img src="./images/screenshot1.png" alt="screenshot1" class="active" />
+        <img src="./images/screenshot2.png" alt="screenshot2" />
+        <img src="./images/screenshot3.png" alt="screenshot3" />
+        <img src="./images/screenshot4.png" alt="screenshot4" />
+      </div>
+      <div class="login">
+        <div class="login-box">
+          <div class="logo"><img src="./images/logo.png" alt="Instagram" /></div>
+          <form class="login-form" autocomplete="off">
+            <label for="username">
+              <input
+                type="text"
+                id="username"
+                type="text"
+                placeholder="Phone number, username, or email"
+              />
+              <span>Phone number, username, or email</span>
+            </label>
+            <label for="password">
+              <input type="password" id="password" type="text" placeholder="Password" />
+              <span>Password</span>
+            </label>
+            <button id="btn-submit" type="submit" class="login-btn" disabled>Log in</button>
+          </form>
+          <div class="login-options">
+            <p class="line"><span>OR</span></p>
+            <button class="fb-button" href="#">
+              <img src="./images/facebook.png" alt="facebook icon" />Log in with Facebook
+            </button>
+            <a href="#">Forgot password?</a>
+          </div>
+        </div>
+        <div class="sign-up-box">
+          <span>Don't have an account?&nbsp;</span>
+          <a hef="#">Sign up</a>
+        </div>
+        <div class="download-box">
+          <p>Get the app.</p>
+          <a href=""><img src="./images/app-store.png" alt="app store" /></a>
+          <a href=""><img src="./images/google-play.png" alt="google play" /></a>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
